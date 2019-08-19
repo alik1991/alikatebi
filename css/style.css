@@ -168,7 +168,7 @@ img {
 
 @media (max-width: 37.5em) {
   .header {
-    height: 35vh; }
+    height: 100vh; }
     .header .header_content {
       margin-left: 5rem; }
       .header .header_content .l-heading {
