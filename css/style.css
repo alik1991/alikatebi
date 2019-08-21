@@ -60,6 +60,12 @@ img {
   font-weight: 400;
   margin: 2.5rem 0; }
 
+@media (max-width: 112.5em) {
+  .heading-secondary {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 2.5rem 0; } }
+
 @media (max-width: 56.25em) {
   .heading-secondary {
     font-size: 6rem;
@@ -77,6 +83,11 @@ img {
   font-weight: 400;
   margin: 2.5rem 0; }
 
+@media (max-width: 112.5em) {
+  .heading-tertiary {
+    font-size: 4rem;
+    font-weight: 400; } }
+
 @media (max-width: 37.5em) {
   .heading-tertiary {
     font-size: 3.5rem;
@@ -86,6 +97,11 @@ img {
 .paragraph-secondary {
   font-size: 3rem;
   font-weight: 300; }
+
+@media (max-width: 112.5em) {
+  .paragraph-secondary {
+    font-size: 2rem;
+    font-weight: 300; } }
 
 @media (max-width: 56.25em) {
   .paragraph-secondary {
@@ -134,6 +150,13 @@ img {
   font-weight: 300;
   text-align: center;
   line-height: 1.5; }
+
+@media (max-width: 112.5em) {
+  .skills-paragraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5; } }
 
 @media (max-width: 56.25em) {
   .skills-paragraph {
@@ -247,7 +270,7 @@ img {
       width: 30%; }
   .section-skills .skills__card {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 8rem 0 4rem; }
     .section-skills .skills__card-container {
@@ -272,13 +295,21 @@ img {
         margin: 0 1rem; }
 
 @media (max-width: 112.5em) {
-  .section-skills .skills__text-box {
-    margin: 0 10rem;
-    width: 70%; }
+  .section-skills .skills {
+    padding: 2rem 0 10rem; }
+    .section-skills .skills__text-box {
+      margin: 0 10rem;
+      width: 70%; }
   .section-skills .skills__card {
-    margin: 9rem; }
+    justify-content: space-around;
+    margin: 5rem 0; }
     .section-skills .skills__card-container {
-      margin: 1rem; } }
+      margin: 1rem;
+      width: 30rem;
+      height: 35rem; }
+    .section-skills .skills__card .skills__icon-container img {
+      width: 5rem;
+      height: 5rem; } }
 
 @media (max-width: 75em) {
   .section-skills .skills__text-box {
@@ -362,8 +393,8 @@ img {
       margin: 0 8rem;
       width: 70%; }
   .section-about .about__middle-image {
-    width: 70rem !important;
-    height: 70rem !important;
+    width: 50rem !important;
+    height: 50rem !important;
     margin: 2rem 0 !important; }
   .section-about .about__middle-text-box {
     margin-bottom: 25rem;
