@@ -57,6 +57,12 @@ img {
   font-weight: 400;
   margin: 2.5rem 0; }
 
+@media (max-width: 56.25em) {
+  .heading-secondary {
+    font-size: 6rem;
+    font-weight: 400;
+    margin: 1rem 0; } }
+
 @media (max-width: 37.5em) {
   .heading-secondary {
     font-size: 5rem;
@@ -78,10 +84,16 @@ img {
   font-size: 3rem;
   font-weight: 300; }
 
+@media (max-width: 56.25em) {
+  .paragraph-secondary {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.5; } }
+
 @media (max-width: 37.5em) {
   .paragraph-secondary {
     font-size: 2.3rem;
-    font-weight: 400; } }
+    font-weight: 300; } }
 
 .paragraph-tertiary {
   font-size: 2.5rem;
@@ -119,6 +131,10 @@ img {
   font-weight: 300;
   text-align: center;
   line-height: 1.5; }
+
+@media (max-width: 56.25em) {
+  .skills-paragraph {
+    line-height: 1.3; } }
 
 .heading-contact {
   font-size: 7rem;
@@ -165,6 +181,19 @@ img {
       font-size: 3rem;
       font-weight: 300;
       color: #fff; }
+
+@media (max-width: 56.25em) {
+  .header {
+    height: 100vh; }
+    .header .header_content {
+      margin-left: 10rem; }
+      .header .header_content .l-heading {
+        font-size: 6.5rem;
+        color: #fff;
+        font-weight: 400;
+        padding-bottom: 0.75rem; }
+      .header .header_content .lead {
+        font-size: 3.5rem; } }
 
 @media (max-width: 37.5em) {
   .header {
@@ -215,6 +244,27 @@ img {
         height: 7rem;
         margin: 0 1rem; }
 
+@media (max-width: 56.25em) {
+  .section-skills .skills {
+    padding: 5rem 0; }
+    .section-skills .skills__text-box {
+      margin: 0 6rem;
+      width: auto; }
+  .section-skills .skills__card {
+    margin: 3rem 3rem; }
+    .section-skills .skills__card-container {
+      width: 30rem;
+      height: 35rem;
+      justify-content: center;
+      align-content: center;
+      margin: 1rem 1rem; }
+    .section-skills .skills__card .skills__icon-container {
+      margin: 1.5rem 0; }
+      .section-skills .skills__card .skills__icon-container img {
+        width: 5rem;
+        height: 5rem;
+        margin: 0 1rem; } }
+
 @media (max-width: 37.5em) {
   .section-skills .skills {
     padding: 1rem 0 5rem; }
@@ -252,6 +302,24 @@ img {
       flex: 1; }
     .section-about .about__middle .paragraph-vision {
       padding-right: 20rem; }
+
+@media (max-width: 56.25em) {
+  .section-about .about {
+    padding: 5rem 0; }
+    .section-about .about__text-box {
+      margin: 0 6rem;
+      width: auto; }
+  .about__middle {
+    margin-top: 5rem !important; }
+    .about__middle-image {
+      width: 50rem !important;
+      height: 50rem !important;
+      margin: 2rem 0 !important; }
+    .about__middle-text-box {
+      margin-bottom: 25rem;
+      width: auto; }
+    .about__middle .paragraph-vision {
+      padding-right: 1rem !important; } }
 
 @media (max-width: 37.5em) {
   .section-about {
@@ -292,12 +360,11 @@ img {
       display: flex;
       justify-content: center;
       margin-left: 90rem; }
-      .section-goal .goal .goal__card .container-1 {
-        display: flex;
-        flex-direction: column; }
+      .section-goal .goal .goal__card .container-1,
       .section-goal .goal .goal__card .container-2 {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        align-items: center; }
     .section-goal .goal .goal__card-container {
       width: 31rem;
       height: 36rem;
@@ -317,6 +384,21 @@ img {
     .section-goal .goal .card-container-4 {
       margin-top: 4rem; }
 
+@media (max-width: 56.25em) {
+  .section-goal .goal {
+    padding: 5rem 0; }
+    .section-goal .goal__text-box {
+      padding: 3rem 0;
+      margin: 0 3rem;
+      width: auto; }
+  .section-goal .goal__card {
+    margin: 0 3rem !important; }
+  .section-goal .card-container-1,
+  .section-goal .card-container-2,
+  .section-goal .card-container-3,
+  .section-goal .card-container-4 {
+    margin: 5rem !important; } }
+
 @media (max-width: 37.5em) {
   .section-goal .goal {
     padding: 2rem 0 5rem; }
@@ -326,10 +408,9 @@ img {
     .section-goal .goal .goal__card {
       flex-direction: column;
       margin: 0 5rem; }
-      .section-goal .goal .goal__card .container-1 {
-        margin: 0 1rem;
-        padding: 0 2rem; }
+      .section-goal .goal .goal__card .container-1,
       .section-goal .goal .goal__card .container-2 {
+        align-items: center;
         margin: 0 1rem;
         padding: 0 2rem; }
     .section-goal .goal .goal__card-container {
@@ -364,6 +445,11 @@ img {
         color: #e4405f; }
       .section-contact .contact__social-box a:nth-child(2) {
         color: #0077b5; }
+
+@media (max-width: 56.25em) {
+  .section-contact .contact {
+    height: auto;
+    padding: 5rem 0; } }
 
 @media (max-width: 37.5em) {
   .section-contact .contact {
