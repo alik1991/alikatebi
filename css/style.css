@@ -399,9 +399,12 @@ img {
   .section-about .about__middle {
     margin-top: 5rem; }
     .section-about .about__middle-image {
-      width: 50rem;
-      height: 50rem;
+      width: auto;
+      height: auto;
       margin: 2rem 0; }
+      .section-about .about__middle-image img {
+        width: 60rem;
+        height: 50rem; }
     .section-about .about__middle-text-box {
       display: flex;
       flex-direction: column;
